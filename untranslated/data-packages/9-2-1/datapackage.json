@@ -12,55 +12,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Passenger and freight volumes, by mode of transport",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Frequency",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Q1",
-                "Q2",
-                "Q3",
-                "Q4",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Passengers",
-                "Goods-Cargo (tons)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }
